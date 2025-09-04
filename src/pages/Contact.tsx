@@ -24,25 +24,25 @@ const Contact = () => {
     {
       icon: <Phone className="w-8 h-8 text-primary" />,
       title: "Call Us",
-      info: "[[phone_number]]",
+      info: "(458) 210-9703",
       description: "Available 24/7 for emergencies"
     },
     {
       icon: <Mail className="w-8 h-8 text-primary" />,
       title: "Email Us",
-      info: "[[email]]",
+      info: "faithfulrooter@gmail.com",
       description: "We'll respond within 24 hours"
     },
     {
       icon: <MapPin className="w-8 h-8 text-primary" />,
-      title: "Visit Us",
-      info: "[[address]]",
-      description: "Our main office location"
+      title: "Service Area",
+      info: "Eugene, Oregon",
+      description: "Serving Eugene and surrounding areas"
     },
     {
       icon: <Clock className="w-8 h-8 text-primary" />,
       title: "Business Hours",
-      info: "Mon-Fri: 8AM-6PM",
+      info: "Open 24 Hours",
       description: "Emergency service available 24/7"
     }
   ];
@@ -54,15 +54,15 @@ const Contact = () => {
         <div className="container-max">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6">
-              Contact [[company_name]]
+              Contact Faithful Rooter
             </h1>
             <p className="text-xl text-primary-light mb-8">
-              Get in touch with our professional plumbing team for all your plumbing needs
+              Get in touch with Eugene's trusted plumbing professionals for all your plumbing needs
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="btn-secondary bg-primary-foreground text-primary hover:bg-primary-light">
                 <Phone className="w-5 h-5 mr-2" />
-                Call [[phone_number]]
+                Call (458) 210-9703
               </Button>
               <Button className="btn-secondary border-primary-light text-primary-light hover:bg-primary-light hover:text-primary">
                 <Mail className="w-5 h-5 mr-2" />
@@ -109,7 +109,7 @@ const Contact = () => {
                 Send Us a Message
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
-                Fill out the form below and we'll get back to you as soon as possible
+                Fill out the form below and we'll get back to you as soon as possible. For emergencies, please call us directly at (458) 210-9703.
               </p>
               <Card className="card-professional">
                 <CardContent className="p-6">
@@ -157,11 +157,11 @@ const Contact = () => {
                       </div>
                       <div>
                         <label htmlFor="subject" className="block text-sm font-medium text-foreground mb-2">
-                          Subject *
+                          Service Needed *
                         </label>
                         <Input
                           id="subject"
-                          placeholder="Subject"
+                          placeholder="Service Needed"
                           value={formData.subject}
                           onChange={(e) => setFormData({...formData, subject: e.target.value})}
                           required
@@ -220,15 +220,15 @@ const Contact = () => {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-semibold mb-4">Service Areas</h3>
                   <p className="text-muted-foreground mb-4">
-                    We proudly serve the following areas with professional plumbing services
+                    We proudly serve Eugene, Oregon and the surrounding areas with professional plumbing services
                   </p>
                   <div className="grid grid-cols-2 gap-2 text-sm">
-                    <div>• [[service_area_1]]</div>
-                    <div>• [[service_area_2]]</div>
-                    <div>• [[service_area_3]]</div>
-                    <div>• [[service_area_4]]</div>
-                    <div>• [[service_area_5]]</div>
-                    <div>• [[service_area_6]]</div>
+                    <div>• Eugene</div>
+                    <div>• Springfield</div>
+                    <div>• Junction City</div>
+                    <div>• Coburg</div>
+                    <div>• Creswell</div>
+                    <div>• Cottage Grove</div>
                   </div>
                 </CardContent>
               </Card>
@@ -256,7 +256,7 @@ const Contact = () => {
               <div className="text-center">
                 <Phone className="w-16 h-16 text-primary-light mx-auto mb-4" />
                 <h3 className="text-xl font-semibold mb-2">Emergency Hotline</h3>
-                <p className="text-primary-light">[[phone_number]]</p>
+                <p className="text-primary-light">(458) 210-9703</p>
               </div>
               <div className="text-center">
                 <MapPin className="w-16 h-16 text-primary-light mx-auto mb-4" />
@@ -266,7 +266,7 @@ const Contact = () => {
             </div>
             <Button className="btn-secondary bg-primary-foreground text-primary hover:bg-primary-light text-lg px-8 py-4">
               <Phone className="w-6 h-6 mr-2" />
-              Emergency Call [[phone_number]]
+              Emergency Call (458) 210-9703
             </Button>
           </div>
         </div>

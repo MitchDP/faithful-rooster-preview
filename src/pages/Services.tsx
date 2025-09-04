@@ -6,62 +6,62 @@ const Services = () => {
   const services = [
     {
       icon: <Droplets className="w-12 h-12 text-primary" />,
-      title: "Emergency Plumbing",
-      description: "24/7 emergency plumbing repairs for urgent situations including burst pipes, leaks, and blockages",
+      title: "Main Line Stoppages",
+      description: "Clearing main sewer and drainage blockages quickly and effectively with professional equipment and techniques",
       features: [
-        "24/7 emergency response",
-        "Licensed plumbers",
-        "Fast problem resolution"
+        "High-pressure water jetting",
+        "Professional snake equipment",
+        "Complete blockage removal"
       ]
     },
     {
       icon: <Wrench className="w-12 h-12 text-primary" />,
-      title: "Pipe Repair & Installation",
-      description: "Complete pipe repair and installation services for residential and commercial properties",
+      title: "Kitchen & Bathroom Sink Stoppages",
+      description: "Restoring proper flow to sinks and drains with expert care and attention to detail",
       features: [
-        "Pipe leak detection",
-        "Full pipe replacement",
-        "Preventive maintenance"
+        "Grease and debris removal",
+        "Pipe inspection and cleaning",
+        "Preventive maintenance advice"
       ]
     },
     {
       icon: <Home className="w-12 h-12 text-primary" />,
-      title: "Drain Cleaning",
-      description: "Professional drain cleaning services to keep your drainage system flowing smoothly",
+      title: "Tub & Shower Stoppages",
+      description: "Professional removal of hair and debris clogs from tubs and shower drains",
       features: [
-        "High-pressure water jetting",
-        "Snake and auger services",
-        "Video drain inspection"
+        "Hair and soap buildup removal",
+        "Drain snake services",
+        "Flow restoration guarantee"
       ]
     },
     {
       icon: <Zap className="w-12 h-12 text-primary" />,
-      title: "Water Heater Service",
-      description: "Complete water heater installation, repair, and maintenance for all types and models",
+      title: "Laundry Line & Toilet Stoppages",
+      description: "Unclogging stubborn blockages in laundry lines and toilets with professional care",
       features: [
-        "Tank and tankless units",
-        "Energy-efficient upgrades",
-        "Regular maintenance plans"
+        "Toilet auger services",
+        "Laundry drain cleaning",
+        "Complete clog elimination"
       ]
     },
     {
       icon: <Shield className="w-12 h-12 text-primary" />,
-      title: "Fixture Installation",
-      description: "Professional installation of bathroom and kitchen fixtures including faucets, toilets, and sinks",
+      title: "Emergency Plumbing Repairs",
+      description: "24/7 emergency plumbing services for urgent situations throughout Eugene and surrounding areas",
       features: [
-        "Bathroom renovations",
-        "Kitchen upgrades",
-        "Quality fixture installation"
+        "24/7 emergency response",
+        "Fast problem diagnosis",
+        "Immediate repair solutions"
       ]
     },
     {
       icon: <Clock className="w-12 h-12 text-primary" />,
-      title: "Preventive Maintenance",
-      description: "Regular maintenance services to prevent costly plumbing problems before they occur",
+      title: "Professional Drain Cleaning",
+      description: "Comprehensive drain cleaning services to maintain optimal water flow in your plumbing system",
       features: [
-        "Annual inspections",
-        "System optimization",
-        "Cost-saving maintenance plans"
+        "Video drain inspection",
+        "Hydro-jetting services",
+        "Preventive maintenance plans"
       ]
     }
   ];
@@ -92,14 +92,14 @@ const Services = () => {
         <div className="container-max">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6">
-              Our Plumbing Services
+              Faithful Rooter Services
             </h1>
             <p className="text-xl text-primary-light mb-8">
-              Comprehensive plumbing solutions for residential and commercial properties
+              Professional plumbing and drain cleaning services for Eugene, Oregon and surrounding areas
             </p>
             <Button className="btn-secondary bg-primary-foreground text-primary hover:bg-primary-light">
               <Phone className="w-5 h-5 mr-2" />
-              Call [[phone_number]]
+              Call (458) 210-9703
             </Button>
           </div>
         </div>
@@ -113,7 +113,7 @@ const Services = () => {
               Professional Plumbing Solutions
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              From emergency repairs to routine maintenance, we handle all your plumbing needs
+              From emergency repairs to specialized drain cleaning, we handle all your plumbing needs with care
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -146,7 +146,7 @@ const Services = () => {
               24/7 Emergency Services
             </h2>
             <p className="text-xl text-primary-light mb-8 max-w-2xl mx-auto">
-              Plumbing emergencies don't wait for business hours. We're available 24/7 for urgent repairs.
+              Plumbing emergencies don't wait for business hours. Faithful Rooter is available 24/7 for urgent repairs throughout Eugene and surrounding areas.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
@@ -167,7 +167,7 @@ const Services = () => {
             </div>
             <Button className="btn-secondary bg-primary-foreground text-primary hover:bg-primary-light text-lg px-8 py-4">
               <Phone className="w-6 h-6 mr-2" />
-              Emergency Call [[phone_number]]
+              Emergency Call (458) 210-9703
             </Button>
           </div>
         </div>
@@ -181,7 +181,7 @@ const Services = () => {
               Why Choose Our Services?
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Experience the difference of working with true plumbing professionals
+              Experience the difference of working with Eugene's trusted plumbing professionals
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -213,28 +213,28 @@ const Services = () => {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             <div className="text-center p-4 bg-accent rounded-lg">
-              <p className="font-medium">[[service_area_1]]</p>
+              <p className="font-medium">Eugene</p>
             </div>
             <div className="text-center p-4 bg-accent rounded-lg">
-              <p className="font-medium">[[service_area_2]]</p>
+              <p className="font-medium">Springfield</p>
             </div>
             <div className="text-center p-4 bg-accent rounded-lg">
-              <p className="font-medium">[[service_area_3]]</p>
+              <p className="font-medium">Junction City</p>
             </div>
             <div className="text-center p-4 bg-accent rounded-lg">
-              <p className="font-medium">[[service_area_4]]</p>
+              <p className="font-medium">Coburg</p>
             </div>
             <div className="text-center p-4 bg-accent rounded-lg">
-              <p className="font-medium">[[service_area_5]]</p>
+              <p className="font-medium">Creswell</p>
             </div>
             <div className="text-center p-4 bg-accent rounded-lg">
-              <p className="font-medium">[[service_area_6]]</p>
+              <p className="font-medium">Cottage Grove</p>
             </div>
             <div className="text-center p-4 bg-accent rounded-lg">
-              <p className="font-medium">[[service_area_7]]</p>
+              <p className="font-medium">Veneta</p>
             </div>
             <div className="text-center p-4 bg-accent rounded-lg">
-              <p className="font-medium">[[service_area_8]]</p>
+              <p className="font-medium">Surrounding Areas</p>
             </div>
           </div>
         </div>
@@ -248,7 +248,7 @@ const Services = () => {
               Need Professional Plumbing Services?
             </h2>
             <p className="text-xl text-primary-light mb-8 max-w-2xl mx-auto">
-              Don't let plumbing problems disrupt your day. Contact us now for fast, reliable service.
+              Don't let plumbing problems disrupt your day. Contact Faithful Rooter now for fast, reliable service.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="btn-secondary bg-primary-foreground text-primary hover:bg-primary-light">
@@ -256,7 +256,7 @@ const Services = () => {
               </Button>
               <Button className="btn-secondary border-primary-light text-primary-light hover:bg-primary-light hover:text-primary">
                 <Phone className="w-5 h-5 mr-2" />
-                Call [[phone_number]]
+                Call (458) 210-9703
               </Button>
             </div>
           </div>

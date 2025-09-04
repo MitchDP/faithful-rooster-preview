@@ -6,30 +6,30 @@ import professionalImage from '@/assets/plumber-professional.jpg';
 const About = () => {
   const teamMembers = [
     {
-      name: "[[team_member_1_name]]",
-      role: "[[team_member_1_role]]",
-      experience: "[[team_member_1_experience]]",
-      description: "[[team_member_1_description]]"
+      name: "Patrick",
+      role: "Owner & Lead Plumber",
+      experience: "5+ Years Experience",
+      description: "Specializes in main line stoppages, sink stoppages, tub & shower stoppages, and emergency repairs. Known for his Christian values and caring approach to customer service."
     },
     {
-      name: "[[team_member_2_name]]",
-      role: "[[team_member_2_role]]",
-      experience: "[[team_member_2_experience]]",
-      description: "[[team_member_2_description]]"
+      name: "Professional Team",
+      role: "Licensed Technicians",
+      experience: "Fully Licensed & Insured",
+      description: "Our team of skilled professionals is dedicated to providing honest, reliable plumbing services with the highest standards of workmanship."
     },
     {
-      name: "[[team_member_3_name]]",
-      role: "[[team_member_3_role]]",
-      experience: "[[team_member_3_experience]]",
-      description: "[[team_member_3_description]]"
+      name: "24/7 Support",
+      role: "Emergency Response",
+      experience: "Always Available",
+      description: "Round-the-clock emergency plumbing services to handle urgent situations with fast response times and professional solutions."
     }
   ];
 
   const stats = [
-    { number: "[[years_experience]]", label: "Years Experience" },
-    { number: "[[projects_completed]]", label: "Projects Completed" },
-    { number: "[[happy_customers]]", label: "Happy Customers" },
-    { number: "[[team_members]]", label: "Team Members" }
+    { number: "5+", label: "Years Experience" },
+    { number: "500+", label: "Projects Completed" },
+    { number: "100+", label: "Happy Customers" },
+    { number: "24/7", label: "Emergency Service" }
   ];
 
   return (
@@ -39,10 +39,10 @@ const About = () => {
         <div className="container-max">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6">
-              About [[company_name]]
+              About Faithful Rooter
             </h1>
             <p className="text-xl text-primary-light">
-              [[about_hero_description]]
+              Delivering kindness, care, and professional plumbing solutions to Eugene, Oregon and surrounding areas
             </p>
           </div>
         </div>
@@ -64,23 +64,23 @@ const About = () => {
                 Our Story
               </h2>
               <p className="text-lg text-muted-foreground mb-4">
-                [[company_story_paragraph_1]]
+                Faithful Rooter is a fully licensed plumbing and drain cleaning service dedicated to kindness, care, and reliability. Patrick, the owner, specializes in main line stoppages, kitchen & bathroom sink stoppages, tub & shower stoppages, laundry line & toilet stoppages, and more.
               </p>
               <p className="text-lg text-muted-foreground mb-6">
-                [[company_story_paragraph_2]]
+                With a 5-star reputation and over 100 glowing reviews, Faithful Rooter proudly serves Eugene and the surrounding community with honesty, professionalism, and compassion. We believe in treating every customer with kindness and delivering exceptional service that reflects our Christian values.
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-primary mr-3" />
-                  <span>[[company_value_1]]</span>
+                  <span>Licensed & Insured (CCB #240420)</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-primary mr-3" />
-                  <span>[[company_value_2]]</span>
+                  <span>5-Star Rating with 100+ Reviews</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-primary mr-3" />
-                  <span>[[company_value_3]]</span>
+                  <span>Christian-Based Business Values</span>
                 </li>
               </ul>
             </div>
@@ -99,7 +99,7 @@ const About = () => {
                 </div>
                 <h3 className="text-2xl font-heading font-bold mb-4">Our Mission</h3>
                 <p className="text-muted-foreground">
-                  [[company_mission]]
+                  To provide reliable, honest, and compassionate plumbing services while treating every customer with kindness and respect. We believe in building lasting relationships through quality workmanship and Christian values.
                 </p>
               </CardContent>
             </Card>
@@ -110,7 +110,7 @@ const About = () => {
                 </div>
                 <h3 className="text-2xl font-heading font-bold mb-4">Our Vision</h3>
                 <p className="text-muted-foreground">
-                  [[company_vision]]
+                  To be Eugene's most trusted plumbing service, known for our integrity, reliability, and exceptional customer care. We envision a community where every home and business has access to honest, professional plumbing solutions.
                 </p>
               </CardContent>
             </Card>
@@ -126,7 +126,7 @@ const About = () => {
               Our Track Record
             </h2>
             <p className="text-xl text-primary-light max-w-2xl mx-auto">
-              [[stats_description]]
+              Numbers that reflect our commitment to excellence and customer satisfaction
             </p>
           </div>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
@@ -148,7 +148,7 @@ const About = () => {
               Meet Our Team
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              [[team_description]]
+              Meet the dedicated professionals who make Faithful Rooter Eugene's trusted plumbing service
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -177,7 +177,7 @@ const About = () => {
               Why Choose Us?
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              [[why_choose_detailed_description]]
+              Experience the difference of working with a plumbing service that values honesty, reliability, and Christian principles
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -185,22 +185,22 @@ const About = () => {
               <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="w-8 h-8 text-primary-foreground" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">[[reason_1_title]]</h3>
-              <p className="text-muted-foreground">[[reason_1_description]]</p>
+              <h3 className="text-xl font-semibold mb-3">Licensed & Insured</h3>
+              <p className="text-muted-foreground">Fully licensed (CCB #240420) and insured plumbing contractor with all proper certifications for your protection and peace of mind.</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
                 <Clock className="w-8 h-8 text-primary-foreground" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">[[reason_2_title]]</h3>
-              <p className="text-muted-foreground">[[reason_2_description]]</p>
+              <h3 className="text-xl font-semibold mb-3">24/7 Emergency Service</h3>
+              <p className="text-muted-foreground">Available around the clock for emergency plumbing situations with fast response times throughout Eugene and surrounding areas.</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
                 <Shield className="w-8 h-8 text-primary-foreground" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">[[reason_3_title]]</h3>
-              <p className="text-muted-foreground">[[reason_3_description]]</p>
+              <h3 className="text-xl font-semibold mb-3">Christian Values</h3>
+              <p className="text-muted-foreground">Built on a foundation of honesty, integrity, and compassion. We treat every customer with kindness and deliver service with Christian principles.</p>
             </div>
           </div>
         </div>
@@ -214,14 +214,14 @@ const About = () => {
               Ready to Work With Us?
             </h2>
             <p className="text-xl text-primary-light mb-8 max-w-2xl mx-auto">
-              [[about_cta_description]]
+              Experience the Faithful Rooter difference. Contact us today for honest, reliable plumbing services.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="btn-secondary bg-primary-foreground text-primary hover:bg-primary-light">
                 Get Free Quote
               </Button>
               <Button className="btn-secondary border-primary-light text-primary-light hover:bg-primary-light hover:text-primary">
-                Call [[phone_number]]
+                Call (458) 210-9703
               </Button>
             </div>
           </div>

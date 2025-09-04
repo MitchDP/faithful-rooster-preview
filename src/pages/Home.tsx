@@ -25,35 +25,35 @@ const Home = () => {
   const services = [
     {
       icon: <Wrench className="w-8 h-8 text-primary" />,
-      title: "Emergency Repairs",
-      description: "24/7 emergency plumbing repairs when you need them most"
+      title: "Main Line Stoppages",
+      description: "Clearing main sewer and drainage blockages quickly and effectively"
     },
     {
       icon: <Shield className="w-8 h-8 text-primary" />,
-      title: "Drain Cleaning",
-      description: "Professional drain cleaning to keep your pipes flowing smoothly"
+      title: "Kitchen & Bathroom Sink Stoppages", 
+      description: "Restoring proper flow to sinks and drains with professional care"
     },
     {
       icon: <Clock className="w-8 h-8 text-primary" />,
-      title: "Water Heater Service",
-      description: "Complete water heater installation, repair, and maintenance services"
+      title: "Emergency Plumbing Repairs",
+      description: "24/7 service for urgent plumbing issues when you need us most"
     }
   ];
 
   const testimonials = [
     {
-      name: "[[testimonial_1_name]]",
-      text: "[[testimonial_1_text]]",
+      name: "James Thomas",
+      text: "Patrick came on a Sunday to clear our washing machine drain. Not only did he fix it, but he was engaging in great conversation. It's wonderful to find a TRUE Christian-based gentleman who works with honesty and care.",
       rating: 5
     },
     {
-      name: "[[testimonial_2_name]]",
-      text: "[[testimonial_2_text]]",
+      name: "Bre Freier",
+      text: "Patrick was great. After 5 pm on a Thursday, he came to the rescue. Fast, efficient, and honest. My mom had a new refrigerator delivered and discovered a leaky line, and he solved it right away. Couldn't recommend him more.",
       rating: 5
     },
     {
-      name: "[[testimonial_3_name]]",
-      text: "[[testimonial_3_text]]",
+      name: "Dante Buccieri",
+      text: "We had an emergency with a shattered sewer pipe. Faithful Rooter gave us a stopgap solution overnight and came the next day for a permanent repair. Fast, reliable, and truly caring service.",
       rating: 5
     }
   ];
@@ -66,19 +66,19 @@ const Home = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6">
-                Professional Plumbing Services You Can Trust
+                Delivering kindness and care to you and your home
               </h1>
               <p className="text-xl text-primary-light mb-8">
-                [[hero_description]]
+                Faithful Rooter is a fully licensed plumbing and drain cleaning service dedicated to kindness, care, and reliability. Serving Eugene, Oregon with professional plumbing solutions 24/7.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button className="btn-hero">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call [[phone_number]]
+                  Call (458) 210-9703
                 </Button>
                 <Button className="btn-secondary bg-primary-foreground text-primary hover:bg-primary-light">
                   <Mail className="w-5 h-5 mr-2" />
-                  Get Free Quote
+                  Request Service
                 </Button>
               </div>
             </div>
@@ -98,10 +98,10 @@ const Home = () => {
         <div className="container-max">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-              Why Choose [[company_name]]?
+              Why Choose Faithful Rooter?
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              [[why_choose_us_description]]
+              Experience the difference of working with a Christian-based plumbing service that values honesty, care, and professional excellence
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -178,20 +178,20 @@ const Home = () => {
                 Your Trusted Local Plumbing Experts
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                [[about_preview_description]]
+                Patrick, the owner of Faithful Rooter, specializes in main line stoppages, kitchen & bathroom sink stoppages, tub & shower stoppages, laundry line & toilet stoppages, and more. With a 5-star reputation and over 100 glowing reviews.
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-primary mr-3" />
-                  <span>[[about_feature_1]]</span>
+                  <span>Licensed & Insured (CCB #240420)</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-primary mr-3" />
-                  <span>[[about_feature_2]]</span>
+                  <span>5-Star Rating with 100+ Reviews</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-primary mr-3" />
-                  <span>[[about_feature_3]]</span>
+                  <span>Christian-Based Business Values</span>
                 </li>
               </ul>
               <Button className="btn-hero">
@@ -247,14 +247,14 @@ const Home = () => {
                   <Phone className="w-6 h-6 text-primary-light mr-4" />
                   <div>
                     <p className="font-semibold">Call Us Now</p>
-                    <p className="text-primary-light">[[phone_number]]</p>
+                    <p className="text-primary-light">(458) 210-9703</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <Mail className="w-6 h-6 text-primary-light mr-4" />
                   <div>
                     <p className="font-semibold">Email Us</p>
-                    <p className="text-primary-light">[[email]]</p>
+                    <p className="text-primary-light">faithfulrooter@gmail.com</p>
                   </div>
                 </div>
               </div>
